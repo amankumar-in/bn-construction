@@ -1,0 +1,804 @@
+/* Concrete Services Page Styles - All unique class names with concrete- prefix */
+.concrete-page {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Container */
+.concrete-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Section Titles */
+.concrete-section-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+/* Hero Section - Diagonal Split */
+.concrete-hero {
+  min-height: 90vh;
+  margin-top: -120px;
+  padding-top: 120px;
+  background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.concrete-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(135deg, #475569 0%, #334155 100%);
+  transform: skewX(-15deg) translateX(20%);
+  z-index: 1;
+}
+
+.concrete-hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  min-height: 70vh;
+  position: relative;
+  z-index: 2;
+}
+
+.concrete-hero-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #facc15 0%, #f59e0b 100%);
+  color: #1a1a1a;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.concrete-hero-title {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.concrete-hero-highlight {
+  display: block;
+  background: linear-gradient(135deg, #fde047 0%, #facc15 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 0.5rem;
+}
+
+.concrete-hero-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.concrete-hero-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.concrete-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.concrete-feature-item svg {
+  color: #facc15;
+  flex-shrink: 0;
+}
+
+.concrete-hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.concrete-hero-visual {
+  position: relative;
+  z-index: 3;
+}
+
+.concrete-hero-image-container {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.concrete-hero-image-container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.concrete-hero-overlay-badge {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.concrete-stat-value {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #facc15;
+}
+
+.concrete-stat-label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* CTA Buttons */
+.concrete-cta-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #facc15 0%, #f59e0b 100%);
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(252, 211, 77, 0.3);
+}
+
+.concrete-cta-primary:hover {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(252, 211, 77, 0.4);
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.concrete-cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.concrete-cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  color: white;
+  text-decoration: none;
+}
+
+.concrete-cta-primary.large,
+.concrete-cta-secondary.large {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.1rem;
+  min-width: 280px;
+  justify-content: center;
+}
+
+/* Services Section - Interactive Cards */
+.concrete-services {
+  padding: 6rem 0;
+  background: white;
+}
+
+.concrete-services-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.concrete-category-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.concrete-category-btn {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border: 2px solid rgba(148, 163, 184, 0.2);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.concrete-category-btn:hover {
+  border-color: #2563eb;
+  transform: translateX(8px);
+}
+
+.concrete-category-btn.active {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  border-color: #2563eb;
+  color: white;
+  transform: translateX(8px);
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.3);
+}
+
+.concrete-category-title {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.concrete-category-description {
+  display: block;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+.concrete-service-display {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.concrete-service-image {
+  height: 250px;
+  overflow: hidden;
+}
+
+.concrete-service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.concrete-service-display:hover .concrete-service-image img {
+  transform: scale(1.05);
+}
+
+.concrete-service-details {
+  padding: 2.5rem;
+}
+
+.concrete-service-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.concrete-service-description {
+  font-size: 1.2rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.concrete-service-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.concrete-service-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.concrete-service-item:hover {
+  transform: translateX(8px);
+}
+
+.concrete-service-item svg {
+  color: #10b981;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+.concrete-service-item span {
+  color: #374151;
+  font-weight: 500;
+}
+
+/* Decorative Options Section */
+.concrete-decorative {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.concrete-decorative-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #64748b;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
+}
+
+.concrete-decorative-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.concrete-decorative-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: all 0.3s ease;
+}
+
+.concrete-decorative-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.concrete-decorative-header {
+  margin-bottom: 1.5rem;
+}
+
+.concrete-decorative-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.concrete-decorative-description {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.concrete-decorative-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.concrete-decorative-feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #374151;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.concrete-decorative-feature svg {
+  color: #facc15;
+  flex-shrink: 0;
+}
+
+/* Process Section */
+.concrete-process {
+  padding: 6rem 0;
+  background: white;
+}
+
+.concrete-process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.concrete-process-step {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.concrete-process-step:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.concrete-process-icon {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.3);
+}
+
+.concrete-process-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.concrete-process-duration {
+  display: inline-block;
+  background: linear-gradient(135deg, #facc15 0%, #f59e0b 100%);
+  color: #1a1a1a;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.concrete-process-content p {
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Pricing Section */
+.concrete-pricing {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.concrete-pricing-tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.concrete-pricing-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  position: relative;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: all 0.3s ease;
+}
+
+.concrete-pricing-card.featured {
+  border-color: #2563eb;
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.2);
+}
+
+.concrete-pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.concrete-pricing-card.featured:hover {
+  transform: scale(1.05) translateY(-8px);
+}
+
+.concrete-pricing-badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.concrete-pricing-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.concrete-pricing-header h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.concrete-price-range {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.concrete-price {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #2563eb;
+}
+
+.concrete-price-unit {
+  color: #64748b;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.concrete-pricing-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.concrete-pricing-feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.concrete-pricing-feature svg {
+  color: #10b981;
+  flex-shrink: 0;
+}
+
+.concrete-value-proposition {
+  background: white;
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.concrete-value-proposition h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.concrete-value-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.concrete-value-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.concrete-value-highlight {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.concrete-value-item span:last-child {
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* Final CTA Section */
+.concrete-final-cta {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+  color: white;
+  text-align: center;
+}
+
+.concrete-cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.concrete-cta-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.concrete-cta-description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.concrete-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.concrete-free-services {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.concrete-free-services h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.concrete-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.concrete-services-list span {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .concrete-hero::before {
+    display: none;
+  }
+  
+  .concrete-hero-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .concrete-hero-visual {
+    order: -1;
+  }
+  
+  .concrete-services-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .concrete-category-nav {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+  
+  .concrete-category-btn {
+    min-width: 200px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .concrete-container {
+    padding: 0 1rem;
+  }
+  
+  .concrete-section-title {
+    font-size: 2.25rem;
+  }
+  
+  .concrete-hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .concrete-hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .concrete-cta-primary,
+  .concrete-cta-secondary {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+  
+  .concrete-pricing-card.featured {
+    transform: none;
+  }
+  
+  .concrete-pricing-card.featured:hover {
+    transform: translateY(-8px);
+  }
+  
+  .concrete-cta-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .concrete-hero-badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .concrete-hero-title {
+    font-size: 2rem;
+  }
+  
+  .concrete-hero-description {
+    font-size: 1rem;
+  }
+  
+  .concrete-section-title {
+    font-size: 2rem;
+  }
+  
+  .concrete-cta-title {
+    font-size: 2rem;
+  }
+  
+  .concrete-cta-description {
+    font-size: 1.1rem;
+  }
+  
+  .concrete-category-nav {
+    flex-direction: column;
+  }
+  
+  .concrete-category-btn {
+    min-width: auto;
+  }
+}

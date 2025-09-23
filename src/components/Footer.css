@@ -1,0 +1,305 @@
+/* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  color: white;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 2rem 1.5rem;
+}
+
+/* Main Footer Content */
+.footer-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Company Info Section */
+.company-section {
+  gap: 1.5rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.footer-company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.footer-company-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  letter-spacing: -0.025em;
+}
+
+.footer-tagline {
+  font-size: 0.875rem;
+  margin: 0;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.footer-description {
+  color: #d1d5db;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.footer-credentials {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.license-badge, .since-badge {
+  background: rgba(37, 99, 235, 0.1);
+  color: #60a5fa;
+  padding: 0.5rem 0.875rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+/* Section Titles */
+.footer-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+  letter-spacing: -0.025em;
+}
+
+/* Footer Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-link {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.25rem 0;
+}
+
+.footer-link:hover {
+  color: white;
+  padding-left: 0.5rem;
+  text-decoration: none;
+}
+
+/* Contact Details */
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.contact-item:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item svg {
+  color: #9ca3af;
+  flex-shrink: 0;
+}
+
+.contact-item:hover svg {
+  color: #60a5fa;
+}
+
+.location {
+  color: #9ca3af;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+/* Business Hours */
+.business-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.hours-item {
+  font-size: 0.85rem;
+  color: #d1d5db;
+  font-weight: 400;
+}
+
+.hours-item.emergency {
+  color: #fbbf24;
+  font-weight: 600;
+}
+
+/* Special Offers */
+.offers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.offer-item {
+  background: rgba(255, 255, 255, 0.05);
+  color: #d1d5db;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+}
+
+.offer-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copyright {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.owner-info {
+  color: #6b7280;
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 2rem 1rem 1rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-section-title {
+    text-align: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-description {
+    text-align: center;
+  }
+
+  .footer-credentials {
+    justify-content: center;
+  }
+
+  .contact-details {
+    align-items: center;
+  }
+
+  .business-hours {
+    align-items: center;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .footer-logo-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-company-name {
+    font-size: 1.25rem;
+  }
+
+  .footer-credentials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .license-badge, .since-badge {
+    text-align: center;
+  }
+}

@@ -1,0 +1,784 @@
+/* ADU Construction Page Styles - All unique class names with adu- prefix */
+.adu-page {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Container */
+.adu-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Section Titles */
+.adu-section-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+/* Hero Section - Card Layout */
+.adu-hero {
+  min-height: 90vh;
+  margin-top: -120px;
+  padding-top: 120px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  display: flex;
+  align-items: center;
+}
+
+.adu-hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.adu-hero-card {
+  background: white;
+  border-radius: 24px;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.adu-hero-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.adu-hero-title {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+}
+
+.adu-hero-highlight {
+  display: block;
+  background: linear-gradient(135deg, #fde047 0%, #facc15 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 0.5rem;
+}
+
+.adu-hero-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  color: #64748b;
+}
+
+.adu-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.adu-stat {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.adu-stat-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.adu-stat-label {
+  font-size: 0.9rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.adu-hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.adu-hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adu-hero-visual img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* CTA Buttons */
+.adu-cta-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.3);
+}
+
+.adu-cta-primary:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(37, 99, 235, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.adu-cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: white;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.adu-cta-secondary:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+  transform: translateY(-2px);
+  color: #374151;
+  text-decoration: none;
+}
+
+.adu-cta-primary.large,
+.adu-cta-secondary.large {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.1rem;
+  min-width: 280px;
+  justify-content: center;
+}
+
+/* Benefits Section - Icon Grid */
+.adu-benefits {
+  padding: 6rem 0;
+  background: white;
+}
+
+.adu-benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.adu-benefit-category-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.adu-benefit-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.adu-benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.adu-benefit-item:hover {
+  transform: translateY(-4px);
+}
+
+.adu-benefit-icon {
+  color: #2563eb;
+  padding: 0.75rem;
+  background: rgba(37, 99, 235, 0.1);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.adu-benefit-content h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.adu-benefit-content p {
+  color: #64748b;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* ADU Types Section */
+.adu-types {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.adu-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.adu-type-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: all 0.3s ease;
+}
+
+.adu-type-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.adu-type-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.adu-type-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.adu-type-card:hover .adu-type-image img {
+  transform: scale(1.05);
+}
+
+.adu-type-content {
+  padding: 2rem;
+}
+
+.adu-type-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.adu-type-description {
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.adu-type-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.adu-type-features li {
+  padding: 0.5rem 0;
+  color: #475569;
+  position: relative;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.adu-type-features li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+}
+
+/* Process Section - Timeline */
+.adu-process {
+  padding: 6rem 0;
+  background: white;
+}
+
+.adu-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.adu-timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+.adu-timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 5rem;
+}
+
+.adu-timeline-marker {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.3);
+}
+
+.adu-timeline-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.adu-timeline-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.adu-timeline-duration {
+  display: inline-block;
+  background: linear-gradient(135deg, #fde047 0%, #facc15 100%);
+  color: #92400e;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.adu-timeline-description {
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.adu-timeline-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.adu-timeline-features li {
+  color: #475569;
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.adu-timeline-features li:before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+/* Investment Section - Pricing Tiers */
+.adu-investment {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.adu-pricing-tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.adu-pricing-tier {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  text-align: center;
+}
+
+.adu-pricing-tier.featured {
+  border-color: #2563eb;
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.2);
+}
+
+.adu-pricing-tier:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.adu-pricing-tier.featured:hover {
+  transform: scale(1.05) translateY(-8px);
+}
+
+.adu-tier-badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.adu-tier-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.adu-tier-size {
+  color: #64748b;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.adu-tier-price {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2563eb;
+  margin-bottom: 2rem;
+}
+
+.adu-tier-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  text-align: left;
+}
+
+.adu-tier-features li {
+  padding: 0.75rem 0;
+  color: #475569;
+  border-bottom: 1px solid #f3f4f6;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.adu-tier-features li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+}
+
+.adu-tier-rental {
+  background: linear-gradient(135deg, #fde047 0%, #facc15 100%);
+  color: #92400e;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+/* FAQ Section - Accordion */
+.adu-faq {
+  padding: 6rem 0;
+  background: white;
+}
+
+.adu-faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.adu-faq-item {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.adu-faq-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-align: left;
+}
+
+.adu-faq-question:hover {
+  color: #2563eb;
+}
+
+.adu-faq-question.active {
+  color: #2563eb;
+}
+
+.adu-faq-icon {
+  transition: transform 0.3s ease;
+  color: #64748b;
+}
+
+.adu-faq-icon.rotated {
+  transform: rotate(180deg);
+  color: #2563eb;
+}
+
+.adu-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.adu-faq-answer.open {
+  max-height: 200px;
+}
+
+.adu-faq-answer p {
+  padding-bottom: 1.5rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Final CTA Section */
+.adu-final-cta {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  text-align: center;
+}
+
+.adu-cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.adu-cta-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.adu-cta-description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.adu-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.adu-free-services {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.adu-free-services h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.adu-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.adu-services-list span {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .adu-hero-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .adu-hero-visual {
+    order: -1;
+  }
+  
+  .adu-benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .adu-hero-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .adu-timeline::before {
+    display: none;
+  }
+  
+  .adu-timeline-item {
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .adu-timeline-marker {
+    position: relative;
+    margin: 0 auto 1rem auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .adu-container {
+    padding: 0 1rem;
+  }
+  
+  .adu-section-title {
+    font-size: 2.25rem;
+  }
+  
+  .adu-hero-card {
+    padding: 2rem;
+  }
+  
+  .adu-hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .adu-hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .adu-cta-primary,
+  .adu-cta-secondary {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+  
+  .adu-types-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .adu-pricing-tier.featured {
+    transform: none;
+  }
+  
+  .adu-pricing-tier.featured:hover {
+    transform: translateY(-8px);
+  }
+  
+  .adu-cta-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .adu-hero-badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .adu-hero-title {
+    font-size: 2rem;
+  }
+  
+  .adu-hero-description {
+    font-size: 1rem;
+  }
+  
+  .adu-hero-card {
+    padding: 1.5rem;
+  }
+  
+  .adu-section-title {
+    font-size: 2rem;
+  }
+  
+  .adu-cta-title {
+    font-size: 2rem;
+  }
+  
+  .adu-cta-description {
+    font-size: 1.1rem;
+  }
+}
