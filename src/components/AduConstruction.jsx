@@ -51,7 +51,7 @@ const AduConstruction = () => {
     <div className="adu-page">
       <SEO 
         title="ADU Construction Services | BN Construction Brentwood, CA"
-        description="Unlock your property's potential with ADU construction in Brentwood, CA. Build accessory dwelling units for rental income & family housing. Detached ADUs, garage conversions, Junior ADUs. Expert ADU contractors. Call (909) 349-5255 for consultation."
+        description="Unlock your property's potential with ADU construction in Brentwood, CA. Build accessory dwelling units for rental income & family housing. Detached ADUs, garage conversions, Junior ADUs. Expert ADU contractors. Call +1 (925) 497-9802 for consultation."
         keywords="ADU construction Brentwood CA, accessory dwelling unit, granny flat, backyard cottage, garage conversion, ADU contractors, rental income property, in-law unit, Junior ADU, detached ADU"
       />
       <Header />

@@ -28,7 +28,7 @@ const Header = () => {
           {/* Contact Actions */}
           <div className="contact-actions">
             <div className="contact-info">
-              <span className="phone-number">(909) 349-5255</span>
+              <span className="phone-number">+1 (925) 497-9802</span>
               <span className="license-info">Licensed & Insured • CA #1113409</span>
             </div>
             <div className="action-buttons">
@@ -96,7 +96,7 @@ const Header = () => {
                      <div className="dropdown-cta">
                        <h4>Ready to Start?</h4>
                        <p>Get your free consultation today</p>
-                       <a href="tel:9093495255" className="dropdown-cta-btn">Call (909) 349-5255</a>
+                       <a href="tel:9093495255" className="dropdown-cta-btn">Call +1 (925) 497-9802</a>
                      </div>
                    </div>
                  </div>
@@ -130,7 +130,7 @@ const Header = () => {
                      <div className="dropdown-cta">
                        <h4>Ready to Start?</h4>
                        <p>Get your free consultation today</p>
-                       <a href="tel:9093495255" className="dropdown-cta-btn">Call (909) 349-5255</a>
+                       <a href="tel:9093495255" className="dropdown-cta-btn">Call +1 (925) 497-9802</a>
                      </div>
                    </div>
                  </div>
@@ -143,7 +143,7 @@ const Header = () => {
           {/* Mobile Contact Section */}
           <div className="mobile-contact">
             <a href="tel:9093495255" className="mobile-phone">
-              <span>Call Now: (909) 349-5255</span>
+              <span>Call Now: +1 (925) 497-9802</span>
             </a>
             <a href="mailto:bnbuilders@yahoo.com" className="mobile-email">
               <span>Get Free Estimate</span>

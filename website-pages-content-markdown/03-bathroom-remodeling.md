@@ -309,7 +309,7 @@ A: Often yes, but sometimes moving fixtures can create better functionality and 
 
 **Transform your daily routine with a bathroom that inspires and rejuvenates!**
 
-📞 **Call Today:** (909) 349-5255  
+📞 **Call Today:** +1 (925) 497-9802  
 📧 **Email:** bnbuilders@yahoo.com  
 🏠 **Serving:** Brentwood, CA & Surrounding Areas
 
@@ -328,4 +328,4 @@ A: Often yes, but sometimes moving fixtures can create better functionality and 
 
 **"Every morning should start in a space that makes you feel pampered and refreshed. Let us create your personal spa retreat."**
 
-**Call now for your FREE consultation: (909) 349-5255**
+**Call now for your FREE consultation: +1 (925) 497-9802**

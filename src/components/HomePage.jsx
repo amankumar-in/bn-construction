@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="homepage">
       <SEO 
         title="BN Construction - Premier Home & Commercial Construction in Brentwood, CA"
-        description="Expert construction and remodeling services in Brentwood, CA. Kitchen remodeling, bathroom renovations, ADU construction, concrete services, and commercial build-outs. 20+ years experience. Licensed, bonded & insured. Call (909) 349-5255 for free consultation."
+        description="Expert construction and remodeling services in Brentwood, CA. Kitchen remodeling, bathroom renovations, ADU construction, concrete services, and commercial build-outs. 20+ years experience. Licensed, bonded & insured. Call +1 (925) 497-9802 for free consultation."
         keywords="construction contractor Brentwood CA, home remodeling, kitchen renovation, bathroom remodeling, ADU construction, concrete services, commercial construction, licensed contractor, emergency construction services"
       />
       <Header />
@@ -61,7 +61,7 @@ const HomePage = () => {
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                 </svg>
-                Call Now: (909) 349-5255
+                Call Now: +1 (925) 497-9802
               </a>
               <a href="#services" className="cta-button secondary">
                 View Our Services
@@ -362,7 +362,7 @@ const HomePage = () => {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                 </svg>
-                Call for FREE Consultation: (909) 349-5255
+                Call for FREE Consultation: +1 (925) 497-9802
               </a>
               <a href="mailto:bnbuilders@yahoo.com" className="cta-button secondary large">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">

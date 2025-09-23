@@ -74,7 +74,7 @@ const CommercialServices = () => {
     <div className="commercial-page">
       <SEO 
         title="Commercial Construction Services | BN Construction Brentwood, CA"
-        description="Expert commercial construction and build-out services in Brentwood, CA. Office renovations, retail build-outs, restaurant construction, medical facilities & more. Minimal business disruption. Licensed commercial contractors. Call (909) 349-5255."
+        description="Expert commercial construction and build-out services in Brentwood, CA. Office renovations, retail build-outs, restaurant construction, medical facilities & more. Minimal business disruption. Licensed commercial contractors. Call +1 (925) 497-9802."
         keywords="commercial construction Brentwood CA, commercial contractors, office build-out, retail construction, restaurant build-out, medical office construction, commercial renovation, tenant improvements"
       />
       <Header />

@@ -78,7 +78,7 @@ const BathroomRemodeling = () => {
     <div className="bathroom-page">
       <SEO 
         title="Bathroom Remodeling Services | BN Construction Brentwood, CA"
-        description="Create your personal spa retreat with BN Construction's bathroom remodeling services in Brentwood, CA. Walk-in showers, luxury tubs, custom vanities & more. Transform your bathroom into a relaxing oasis. Free consultation (909) 349-5255."
+        description="Create your personal spa retreat with BN Construction's bathroom remodeling services in Brentwood, CA. Walk-in showers, luxury tubs, custom vanities & more. Transform your bathroom into a relaxing oasis. Free consultation +1 (925) 497-9802."
         keywords="bathroom remodeling Brentwood CA, bathroom renovation, spa bathroom, walk-in shower, luxury bathroom, bathroom contractors, master bathroom, bathroom design, accessible bathroom"
       />
       <Header />

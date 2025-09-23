@@ -314,7 +314,7 @@ A: We follow strict quality control procedures, conduct regular inspections, use
 
 **Let's create a commercial environment that drives your success!**
 
-📞 **Call Today:** (909) 349-5255  
+📞 **Call Today:** +1 (925) 497-9802  
 📧 **Email:** bnbuilders@yahoo.com  
 🏠 **Serving:** Brentwood, CA & Surrounding Areas
 
@@ -333,4 +333,4 @@ A: We follow strict quality control procedures, conduct regular inspections, use
 
 **"Your business deserves a space that works as hard as you do. Let BN Construction create the commercial environment that supports your success."**
 
-**Call for your FREE consultation: (909) 349-5255**
+**Call for your FREE consultation: +1 (925) 497-9802**

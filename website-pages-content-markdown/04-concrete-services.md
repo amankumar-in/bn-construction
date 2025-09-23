@@ -309,7 +309,7 @@ A: Cement is an ingredient in concrete. Concrete is the finished product made fr
 
 **From foundations to decorative patios, we pour quality that lasts!**
 
-📞 **Call Today:** (909) 349-5255  
+📞 **Call Today:** +1 (925) 497-9802  
 📧 **Email:** bnbuilders@yahoo.com  
 🏠 **Serving:** Brentwood, CA & Surrounding Areas
 
@@ -328,4 +328,4 @@ A: Cement is an ingredient in concrete. Concrete is the finished product made fr
 
 **"Strong foundations require expert knowledge and quality materials. Trust BN Construction for concrete work that stands the test of time."**
 
-**Schedule your FREE consultation today: (909) 349-5255**
+**Schedule your FREE consultation today: +1 (925) 497-9802**

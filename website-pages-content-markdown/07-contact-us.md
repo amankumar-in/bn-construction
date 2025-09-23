@@ -9,7 +9,7 @@ Ready to transform your space with expert construction and remodeling services? 
 ## Get in Touch With BN Construction
 
 ### 📞 **Call Us Directly**
-**Phone: (909) 349-5255**
+**Phone: +1 (925) 497-9802**
 
 **When to Call:**
 - **Emergency Services** - Available 24/7 for urgent construction needs
@@ -259,7 +259,7 @@ A: We communicate immediately about any unexpected conditions and provide option
 ### 🚀 **Three Easy Ways to Begin Your Project**
 
 **1. Call for Immediate Service:**
-📞 **(909) 349-5255**
+📞 **+1 (925) 497-9802**
 - Speak directly with our experienced team
 - Schedule your free consultation
 - Get immediate answers to your questions
@@ -322,6 +322,6 @@ A: We communicate immediately about any unexpected conditions and provide option
 
 **Ready to transform your space? Your dream project is just one phone call away.**
 
-## 📞 Call BN Construction Today: (909) 349-5255
+## 📞 Call BN Construction Today: +1 (925) 497-9802
 
 *Licensed | Bonded | Insured | CA License #1113409*

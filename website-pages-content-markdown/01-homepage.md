@@ -11,7 +11,7 @@ Welcome to BN Construction, where your vision becomes reality through uncompromi
 ### "Your Home is Your Canvas. We're Your Master Craftsmen."
 
 **Ready to Transform Your Space?**  
-📞 **Call Now: (909) 349-5255**  
+📞 **Call Now: +1 (925) 497-9802**  
 🏠 **Serving Brentwood & Surrounding Areas**  
 ⭐ **Licensed, Bonded & Insured | License #1113409**
 
@@ -172,7 +172,7 @@ We believe great construction should be accessible to everyone:
 
 **Ready to start your construction journey?**
 
-📞 **Phone:** (909) 349-5255  
+📞 **Phone:** +1 (925) 497-9802  
 📧 **Email:** bnbuilders@yahoo.com  
 📍 **Address:** Brentwood, California  
 🌐 **License:** CA Contractor License #1113409
@@ -183,7 +183,7 @@ We believe great construction should be accessible to everyone:
 - **Emergency Services:** Available 24/7
 
 ### **Get Started:**
-1. **Call for FREE Consultation:** (909) 349-5255
+1. **Call for FREE Consultation:** +1 (925) 497-9802
 2. **Email Your Project Details:** bnbuilders@yahoo.com
 3. **Schedule Online:** [Contact Form Link]
 

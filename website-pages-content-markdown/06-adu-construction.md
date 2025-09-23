@@ -342,7 +342,7 @@ A: ADUs need independent electrical meters but can share water, sewer, and gas s
 
 **Transform your backyard into a valuable income-producing asset!**
 
-📞 **Call Today:** (909) 349-5255  
+📞 **Call Today:** +1 (925) 497-9802  
 📧 **Email:** bnbuilders@yahoo.com  
 🏠 **Serving:** Brentwood, CA & Surrounding Areas
 
@@ -361,4 +361,4 @@ A: ADUs need independent electrical meters but can share water, sewer, and gas s
 
 **"An ADU isn't just a building—it's an investment in your family's financial future. Let us help you unlock your property's hidden potential."**
 
-**Schedule your FREE ADU consultation: (909) 349-5255**
+**Schedule your FREE ADU consultation: +1 (925) 497-9802**

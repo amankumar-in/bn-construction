@@ -89,7 +89,7 @@ const ConcreteServices = () => {
     <div className="concrete-page">
       <SEO 
         title="Concrete Services | BN Construction Brentwood, CA"
-        description="Professional concrete services in Brentwood, CA. Foundations, driveways, patios, retaining walls, decorative concrete & more. Expert concrete contractors with 20+ years experience. Licensed & insured. Call (909) 349-5255 for free estimate."
+        description="Professional concrete services in Brentwood, CA. Foundations, driveways, patios, retaining walls, decorative concrete & more. Expert concrete contractors with 20+ years experience. Licensed & insured. Call +1 (925) 497-9802 for free estimate."
         keywords="concrete services Brentwood CA, concrete contractors, foundations, driveways, patios, retaining walls, decorative concrete, stamped concrete, concrete repair, commercial concrete"
       />
       <Header />

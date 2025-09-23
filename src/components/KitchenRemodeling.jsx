@@ -9,7 +9,7 @@ const KitchenRemodeling = () => {
     <div className="kitchen-page">
       <SEO 
         title="Kitchen Remodeling Services | BN Construction Brentwood, CA"
-        description="Transform your kitchen into the heart of your home with BN Construction's expert kitchen remodeling services in Brentwood, CA. Custom cabinetry, countertops, flooring & lighting. 20+ years experience. Free consultation. Call (909) 349-5255."
+        description="Transform your kitchen into the heart of your home with BN Construction's expert kitchen remodeling services in Brentwood, CA. Custom cabinetry, countertops, flooring & lighting. 20+ years experience. Free consultation. Call +1 (925) 497-9802."
         keywords="kitchen remodeling Brentwood CA, kitchen renovation, custom cabinetry, kitchen countertops, kitchen design, modern farmhouse kitchen, contemporary kitchen, kitchen contractors Brentwood"
       />
       <Header />
@@ -522,7 +522,7 @@ const KitchenRemodeling = () => {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                 </svg>
-                Call Today: (909) 349-5255
+                Call Today: +1 (925) 497-9802
               </a>
               <a href="mailto:bnbuilders@yahoo.com" className="cta-button secondary large">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">

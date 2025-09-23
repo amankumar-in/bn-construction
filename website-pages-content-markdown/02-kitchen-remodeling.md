@@ -246,7 +246,7 @@ A: Yes, we offer various financing options including 0% APR for qualified buyers
 
 **Let's create the kitchen of your dreams together!**
 
-📞 **Call Today:** (909) 349-5255  
+📞 **Call Today:** +1 (925) 497-9802  
 📧 **Email:** bnbuilders@yahoo.com  
 🏠 **Serving:** Brentwood, CA & Surrounding Areas
 
@@ -265,4 +265,4 @@ A: Yes, we offer various financing options including 0% APR for qualified buyers
 
 **"Your dream kitchen is just a phone call away. Let our 20+ years of experience transform your space into something truly spectacular."**
 
-**Schedule your FREE consultation today: (909) 349-5255**
+**Schedule your FREE consultation today: +1 (925) 497-9802**
