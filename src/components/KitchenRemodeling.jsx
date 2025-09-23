@@ -113,156 +113,127 @@ const KitchenRemodeling = () => {
       <section id="services" className="services-section">
         <div className="container">
           <h2 className="section-title">Our Comprehensive Kitchen Remodeling Services</h2>
-          <div className="services-grid">
-            
-            {/* Custom Cabinetry */}
-            <div className="service-card">
-              <div className="service-image">
+          
+          <div className="services-cards-grid">
+            <div className="service-card-clean">
+              <div className="card-image-section">
                 <img src="/images/w00d-workers-cabinets.jpg" alt="Custom cabinetry" />
-                <div className="service-overlay">
-                  <h3 className="service-overlay-title">Custom Cabinetry & Storage</h3>
-                </div>
+                <div className="card-badge">Custom Cabinetry</div>
               </div>
-              <div className="service-content">
-                <h3 className="service-title">Custom Cabinetry & Storage Solutions</h3>
-                <p className="service-description">
-                  Premium cabinet options and innovative storage features designed for your lifestyle.
-                </p>
-                <div className="service-categories">
-                  <div className="service-category">
-                    <h4>Premium Cabinet Options:</h4>
-                    <ul className="service-features">
-                      <li>Solid Wood Cabinets - Oak, maple, cherry, and exotic wood species</li>
-                      <li>Modern Frameless Cabinets - Sleek, contemporary European-style designs</li>
-                      <li>Painted Cabinets - Custom colors and finishes to match any décor</li>
-                      <li>Two-Tone Designs - Mix and match colors for visual interest</li>
-                      <li>Glass Front Cabinets - Display beautiful dishes and glassware</li>
-                    </ul>
+              <div className="card-content">
+                <h3>Custom Cabinetry & Storage Solutions</h3>
+                <div className="features-compact">
+                  <div className="feature-group">
+                    <h4>Cabinet Options</h4>
+                    <div className="feature-tags">
+                      <span>Solid Wood</span>
+                      <span>Frameless</span>
+                      <span>Painted</span>
+                      <span>Two-Tone</span>
+                      <span>Glass Front</span>
+                    </div>
                   </div>
-                  <div className="service-category">
-                    <h4>Innovative Storage Features:</h4>
-                    <ul className="service-features">
-                      <li>Pull-out drawers and organizers</li>
-                      <li>Lazy Susans for corner cabinets</li>
-                      <li>Spice racks and pantry systems</li>
-                      <li>Hidden trash and recycling centers</li>
-                      <li>Deep drawer storage for pots and pans</li>
-                      <li>Under-cabinet lighting integration</li>
-                    </ul>
+                  <div className="feature-group">
+                    <h4>Storage Features</h4>
+                    <div className="feature-tags">
+                      <span>Pull-out Drawers</span>
+                      <span>Lazy Susans</span>
+                      <span>Spice Racks</span>
+                      <span>Hidden Trash</span>
+                      <span>Deep Storage</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Countertops */}
-            <div className="service-card">
-              <div className="service-image">
+            <div className="service-card-clean">
+              <div className="card-image-section">
                 <img src="/images/kitchen-counter-design.jpg" alt="Kitchen countertops" />
-                <div className="service-overlay">
-                  <h3 className="service-overlay-title">Countertop Installation</h3>
-                </div>
+                <div className="card-badge">Countertops</div>
               </div>
-              <div className="service-content">
-                <h3 className="service-title">Countertop Installation & Fabrication</h3>
-                <p className="service-description">
-                  Beautiful, durable countertops with expert fabrication and installation.
-                </p>
-                <div className="service-categories">
-                  <div className="service-category">
-                    <h4>Material Options:</h4>
-                    <ul className="service-features">
-                      <li>Quartz Countertops - Durable, non-porous, hundreds of colors</li>
-                      <li>Granite Countertops - Natural beauty with unique patterns</li>
-                      <li>Marble Countertops - Luxurious surfaces perfect for baking</li>
-                      <li>Butcher Block - Warm, natural wood surfaces</li>
-                      <li>Concrete Countertops - Industrial chic with unlimited customization</li>
-                      <li>Stainless Steel - Professional-grade surfaces for serious cooks</li>
-                    </ul>
+              <div className="card-content">
+                <h3>Countertop Installation & Fabrication</h3>
+                <div className="features-compact">
+                  <div className="feature-group">
+                    <h4>Materials</h4>
+                    <div className="feature-tags">
+                      <span>Quartz</span>
+                      <span>Granite</span>
+                      <span>Marble</span>
+                      <span>Butcher Block</span>
+                      <span>Concrete</span>
+                    </div>
                   </div>
-                  <div className="service-category">
-                    <h4>Expert Fabrication & Installation:</h4>
-                    <ul className="service-features">
-                      <li>Precise digital templating for perfect fit</li>
-                      <li>Professional edge profiles and finishes</li>
-                      <li>Seamless integration with sinks and appliances</li>
-                      <li>Waterfall edges and specialty cuts</li>
-                      <li>Matching backsplashes available</li>
-                    </ul>
+                  <div className="feature-group">
+                    <h4>Installation</h4>
+                    <div className="feature-tags">
+                      <span>Digital Templating</span>
+                      <span>Edge Profiles</span>
+                      <span>Seamless Fit</span>
+                      <span>Waterfall Edges</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Flooring */}
-            <div className="service-card">
-              <div className="service-image">
+            <div className="service-card-clean">
+              <div className="card-image-section">
                 <img src="/images/kitechen-wooden-with-dining.jpg" alt="Kitchen flooring" />
-                <div className="service-overlay">
-                  <h3 className="service-overlay-title">Flooring Solutions</h3>
-                </div>
+                <div className="card-badge">Flooring</div>
               </div>
-              <div className="service-content">
-                <h3 className="service-title">Flooring That Stands Up to Life</h3>
-                <p className="service-description">
-                  Durable and beautiful flooring options with professional installation.
-                </p>
-                <div className="service-categories">
-                  <div className="service-category">
-                    <h4>Durable & Beautiful Options:</h4>
-                    <ul className="service-features">
-                      <li>Luxury Vinyl Plank - Waterproof, comfortable underfoot</li>
-                      <li>Ceramic & Porcelain Tile - Classic durability with modern designs</li>
-                      <li>Hardwood Flooring - Timeless beauty that adds value</li>
-                      <li>Natural Stone - Travertine, slate, and marble for luxury</li>
-                      <li>Laminate Flooring - Budget-friendly with realistic wood looks</li>
-                    </ul>
+              <div className="card-content">
+                <h3>Premium Flooring Solutions</h3>
+                <div className="features-compact">
+                  <div className="feature-group">
+                    <h4>Flooring Types</h4>
+                    <div className="feature-tags">
+                      <span>Luxury Vinyl</span>
+                      <span>Ceramic Tile</span>
+                      <span>Hardwood</span>
+                      <span>Natural Stone</span>
+                      <span>Laminate</span>
+                    </div>
                   </div>
-                  <div className="service-category">
-                    <h4>Professional Installation:</h4>
-                    <ul className="service-features">
-                      <li>Proper subfloor preparation</li>
-                      <li>Moisture barriers and underlayment</li>
-                      <li>Precision cutting and fitting</li>
-                      <li>Seamless transitions to adjoining rooms</li>
-                      <li>Baseboards and trim work included</li>
-                    </ul>
+                  <div className="feature-group">
+                    <h4>Installation</h4>
+                    <div className="feature-tags">
+                      <span>Subfloor Prep</span>
+                      <span>Moisture Barriers</span>
+                      <span>Precision Cutting</span>
+                      <span>Seamless Transitions</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Lighting & Electrical */}
-            <div className="service-card">
-              <div className="service-image">
+            <div className="service-card-clean">
+              <div className="card-image-section">
                 <img src="/images/kitchen-with-dining.jpg" alt="Kitchen lighting" />
-                <div className="service-overlay">
-                  <h3 className="service-overlay-title">Lighting & Electrical</h3>
-                </div>
+                <div className="card-badge">Lighting & Electrical</div>
               </div>
-              <div className="service-content">
-                <h3 className="service-title">Lighting Design & Electrical</h3>
-                <p className="service-description">
-                  Layered lighting approach and electrical upgrades for modern kitchens.
-                </p>
-                <div className="service-categories">
-                  <div className="service-category">
-                    <h4>Layered Lighting Approach:</h4>
-                    <ul className="service-features">
-                      <li>Task Lighting - Under-cabinet LED strips and pendant lights</li>
-                      <li>Ambient Lighting - Recessed ceiling lights and chandeliers</li>
-                      <li>Accent Lighting - Display lighting and decorative fixtures</li>
-                      <li>Natural Light - Skylights and window enhancements</li>
-                    </ul>
+              <div className="card-content">
+                <h3>Professional Lighting & Electrical</h3>
+                <div className="features-compact">
+                  <div className="feature-group">
+                    <h4>Lighting</h4>
+                    <div className="feature-tags">
+                      <span>Under-cabinet LEDs</span>
+                      <span>Recessed Lights</span>
+                      <span>Pendant Lighting</span>
+                      <span>Accent Lighting</span>
+                    </div>
                   </div>
-                  <div className="service-category">
-                    <h4>Electrical Upgrades:</h4>
-                    <ul className="service-features">
-                      <li>GFCI outlets and USB charging stations</li>
-                      <li>Dedicated circuits for major appliances</li>
-                      <li>Smart switches and dimmer controls</li>
-                      <li>Kitchen island electrical planning</li>
-                      <li>Code-compliant electrical work</li>
-                    </ul>
+                  <div className="feature-group">
+                    <h4>Electrical</h4>
+                    <div className="feature-tags">
+                      <span>GFCI Outlets</span>
+                      <span>USB Stations</span>
+                      <span>Smart Switches</span>
+                      <span>Island Wiring</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -275,78 +246,97 @@ const KitchenRemodeling = () => {
       <section className="styles-section">
         <div className="container">
           <h2 className="section-title">Popular Kitchen Styles We Create</h2>
-          <div className="styles-grid">
-            <div className="style-card">
-              <div className="style-header">
-                <svg className="style-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M6 9l6 6 6-6"/>
-                </svg>
-                <h3 className="style-title">Modern Farmhouse</h3>
+          <div className="styles-cards-grid">
+            <div className="style-card-clean">
+              <div className="style-icon-section">
+                <div className="style-icon-bg">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M6 9l6 6 6-6"/>
+                  </svg>
+                </div>
+                <div className="style-badge">Modern Farmhouse</div>
               </div>
-              <p className="style-description">
-                Combine rustic charm with contemporary functionality.
-              </p>
-              <ul className="style-features">
-                <li>Shaker-style cabinets in white or sage green</li>
-                <li>Butcher block or quartz countertops</li>
-                <li>Farmhouse sinks and vintage-inspired fixtures</li>
-                <li>Shiplap accents and barn door pantries</li>
-                <li>Open shelving with decorative brackets</li>
-              </ul>
+              <div className="style-content">
+                <h3>Modern Farmhouse Style</h3>
+                <p className="style-description">Rustic charm meets contemporary functionality</p>
+                <div className="style-features-tags">
+                  <span>Shaker Cabinets</span>
+                  <span>Butcher Block</span>
+                  <span>Farmhouse Sinks</span>
+                  <span>Shiplap Accents</span>
+                  <span>Open Shelving</span>
+                  <span>Vintage Fixtures</span>
+                </div>
+              </div>
             </div>
-            <div className="style-card">
-              <div className="style-header">
-                <svg className="style-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M8 4v8l4-4 4 4V4"/>
-                </svg>
-                <h3 className="style-title">Contemporary & Modern</h3>
+
+            <div className="style-card-clean">
+              <div className="style-icon-section">
+                <div className="style-icon-bg">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 4v8l4-4 4 4V4"/>
+                  </svg>
+                </div>
+                <div className="style-badge">Contemporary</div>
               </div>
-              <p className="style-description">
-                Clean lines and minimalist design for today's lifestyle.
-              </p>
-              <ul className="style-features">
-                <li>Flat-panel cabinets with hidden handles</li>
-                <li>Waterfall quartz or concrete countertops</li>
-                <li>Stainless steel appliances and fixtures</li>
-                <li>Large format tile or hardwood floors</li>
-                <li>Pendant lighting and under-cabinet LEDs</li>
-              </ul>
+              <div className="style-content">
+                <h3>Contemporary & Modern</h3>
+                <p className="style-description">Clean lines and minimalist design</p>
+                <div className="style-features-tags">
+                  <span>Flat-Panel Cabinets</span>
+                  <span>Waterfall Counters</span>
+                  <span>Stainless Steel</span>
+                  <span>Large Format Tile</span>
+                  <span>Pendant Lighting</span>
+                  <span>Hidden Handles</span>
+                </div>
+              </div>
             </div>
-            <div className="style-card">
-              <div className="style-header">
-                <svg className="style-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                </svg>
-                <h3 className="style-title">Traditional & Transitional</h3>
+
+            <div className="style-card-clean">
+              <div className="style-icon-section">
+                <div className="style-icon-bg">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+                <div className="style-badge">Traditional</div>
               </div>
-              <p className="style-description">
-                Timeless designs that never go out of style.
-              </p>
-              <ul className="style-features">
-                <li>Raised panel cabinets in rich wood tones</li>
-                <li>Granite or marble countertops</li>
-                <li>Classic subway tile backsplashes</li>
-                <li>Crown molding and decorative trim</li>
-                <li>Warm lighting and traditional hardware</li>
-              </ul>
+              <div className="style-content">
+                <h3>Traditional & Transitional</h3>
+                <p className="style-description">Timeless designs that never go out of style</p>
+                <div className="style-features-tags">
+                  <span>Raised Panel Cabinets</span>
+                  <span>Rich Wood Tones</span>
+                  <span>Marble Countertops</span>
+                  <span>Subway Tile</span>
+                  <span>Crown Molding</span>
+                  <span>Traditional Hardware</span>
+                </div>
+              </div>
             </div>
-            <div className="style-card">
-              <div className="style-header">
-                <svg className="style-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
-                </svg>
-                <h3 className="style-title">Coastal & Mediterranean</h3>
+
+            <div className="style-card-clean">
+              <div className="style-icon-section">
+                <div className="style-icon-bg">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                  </svg>
+                </div>
+                <div className="style-badge">Coastal</div>
               </div>
-              <p className="style-description">
-                Bring the beach or European villa to your home.
-              </p>
-              <ul className="style-features">
-                <li>Light blue or seafoam green cabinets</li>
-                <li>Natural stone countertops and backsplashes</li>
-                <li>Beadboard and nautical accents</li>
-                <li>Terracotta or natural stone floors</li>
-                <li>Wrought iron and aged brass fixtures</li>
-              </ul>
+              <div className="style-content">
+                <h3>Coastal & Mediterranean</h3>
+                <p className="style-description">Beach vibes and European villa inspiration</p>
+                <div className="style-features-tags">
+                  <span>Light Blue Cabinets</span>
+                  <span>Natural Stone</span>
+                  <span>Beadboard</span>
+                  <span>Terracotta Floors</span>
+                  <span>Nautical Accents</span>
+                  <span>Aged Brass</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
