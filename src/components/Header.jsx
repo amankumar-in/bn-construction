@@ -35,7 +35,7 @@ const Header = () => {
               <a href="mailto:bnbuilders@yahoo.com" className="email-btn">
                 Get Quote
               </a>
-              <a href="tel:9093495255" className="call-btn">
+              <a href="tel:+19254979802" className="call-btn">
                 Call Now
               </a>
             </div>
@@ -96,7 +96,7 @@ const Header = () => {
                      <div className="dropdown-cta">
                        <h4>Ready to Start?</h4>
                        <p>Get your free consultation today</p>
-                       <a href="tel:9093495255" className="dropdown-cta-btn">Call +1 (925) 497-9802</a>
+                       <a href="tel:+19254979802" className="dropdown-cta-btn">Call +1 (925) 497-9802</a>
                      </div>
                    </div>
                  </div>
@@ -130,7 +130,7 @@ const Header = () => {
                      <div className="dropdown-cta">
                        <h4>Ready to Start?</h4>
                        <p>Get your free consultation today</p>
-                       <a href="tel:9093495255" className="dropdown-cta-btn">Call +1 (925) 497-9802</a>
+                       <a href="tel:+19254979802" className="dropdown-cta-btn">Call +1 (925) 497-9802</a>
                      </div>
                    </div>
                  </div>
@@ -142,7 +142,7 @@ const Header = () => {
           
           {/* Mobile Contact Section */}
           <div className="mobile-contact">
-            <a href="tel:9093495255" className="mobile-phone">
+            <a href="tel:+19254979802" className="mobile-phone">
               <span>Call Now: +1 (925) 497-9802</span>
             </a>
             <a href="mailto:bnbuilders@yahoo.com" className="mobile-email">
